@@ -10,9 +10,23 @@
 		BBE71B3B28F057D0003101FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE71B3A28F057D0003101FE /* AppDelegate.swift */; };
 		BBE71B3D28F057D0003101FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE71B3C28F057D0003101FE /* SceneDelegate.swift */; };
 		BBE71B3F28F057D0003101FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE71B3E28F057D0003101FE /* ViewController.swift */; };
-		BBE71B4228F057D0003101FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBE71B4028F057D0003101FE /* Main.storyboard */; };
 		BBE71B4428F057D2003101FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBE71B4328F057D2003101FE /* Assets.xcassets */; };
 		BBE71B4728F057D2003101FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBE71B4528F057D2003101FE /* LaunchScreen.storyboard */; };
+		BBE71B5528F05805003101FE /* OutlineShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE71B4E28F05805003101FE /* OutlineShape.swift */; };
+		BBE71B5628F05805003101FE /* OutlineRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE71B4F28F05805003101FE /* OutlineRect.swift */; };
+		BBE71B5728F05805003101FE /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = BBE71B5028F05805003101FE /* Readme.md */; };
+		BBE71B5828F05805003101FE /* ColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE71B5128F05805003101FE /* ColorButton.swift */; };
+		BBE71B5928F05805003101FE /* OutlineTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE71B5228F05805003101FE /* OutlineTriangle.swift */; };
+		BBE71B5A28F05805003101FE /* SolidShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE71B5328F05805003101FE /* SolidShape.swift */; };
+		BBE71B5B28F05805003101FE /* OutlineCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE71B5428F05805003101FE /* OutlineCircle.swift */; };
+		BBE71B6128F0581A003101FE /* DrawingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE71B5D28F0581A003101FE /* DrawingItem.swift */; };
+		BBE71B6228F0581A003101FE /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE71B5E28F0581A003101FE /* DrawingView.swift */; };
+		BBE71B6328F0581A003101FE /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE71B5F28F0581A003101FE /* Circle.swift */; };
+		BBE71B6528F05829003101FE /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE71B6428F05829003101FE /* Rectangle.swift */; };
+		BBE71B6728F0583C003101FE /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE71B6628F0583C003101FE /* Triangle.swift */; };
+		BBE71B6928F0586C003101FE /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE71B6828F0586B003101FE /* Shape.swift */; };
+		BBE71B6B28F058A5003101FE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE71B6A28F058A5003101FE /* Extensions.swift */; };
+		BBE71B6D28F0590B003101FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBE71B6C28F0590B003101FE /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +34,24 @@
 		BBE71B3A28F057D0003101FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBE71B3C28F057D0003101FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BBE71B3E28F057D0003101FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BBE71B4128F057D0003101FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBE71B4328F057D2003101FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBE71B4628F057D2003101FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBE71B4828F057D2003101FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBE71B4E28F05805003101FE /* OutlineShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlineShape.swift; sourceTree = "<group>"; };
+		BBE71B4F28F05805003101FE /* OutlineRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlineRect.swift; sourceTree = "<group>"; };
+		BBE71B5028F05805003101FE /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		BBE71B5128F05805003101FE /* ColorButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorButton.swift; sourceTree = "<group>"; };
+		BBE71B5228F05805003101FE /* OutlineTriangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlineTriangle.swift; sourceTree = "<group>"; };
+		BBE71B5328F05805003101FE /* SolidShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolidShape.swift; sourceTree = "<group>"; };
+		BBE71B5428F05805003101FE /* OutlineCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlineCircle.swift; sourceTree = "<group>"; };
+		BBE71B5D28F0581A003101FE /* DrawingItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingItem.swift; sourceTree = "<group>"; };
+		BBE71B5E28F0581A003101FE /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		BBE71B5F28F0581A003101FE /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		BBE71B6428F05829003101FE /* Rectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		BBE71B6628F0583C003101FE /* Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		BBE71B6828F0586B003101FE /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		BBE71B6A28F058A5003101FE /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BBE71B6C28F0590B003101FE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +87,24 @@
 				BBE71B3A28F057D0003101FE /* AppDelegate.swift */,
 				BBE71B3C28F057D0003101FE /* SceneDelegate.swift */,
 				BBE71B3E28F057D0003101FE /* ViewController.swift */,
-				BBE71B4028F057D0003101FE /* Main.storyboard */,
+				BBE71B5128F05805003101FE /* ColorButton.swift */,
+				BBE71B6A28F058A5003101FE /* Extensions.swift */,
+				BBE71B6C28F0590B003101FE /* Main.storyboard */,
 				BBE71B4328F057D2003101FE /* Assets.xcassets */,
 				BBE71B4528F057D2003101FE /* LaunchScreen.storyboard */,
 				BBE71B4828F057D2003101FE /* Info.plist */,
+				BBE71B6828F0586B003101FE /* Shape.swift */,
+				BBE71B5F28F0581A003101FE /* Circle.swift */,
+				BBE71B6428F05829003101FE /* Rectangle.swift */,
+				BBE71B6628F0583C003101FE /* Triangle.swift */,
+				BBE71B5D28F0581A003101FE /* DrawingItem.swift */,
+				BBE71B5E28F0581A003101FE /* DrawingView.swift */,
+				BBE71B5428F05805003101FE /* OutlineCircle.swift */,
+				BBE71B4F28F05805003101FE /* OutlineRect.swift */,
+				BBE71B4E28F05805003101FE /* OutlineShape.swift */,
+				BBE71B5228F05805003101FE /* OutlineTriangle.swift */,
+				BBE71B5328F05805003101FE /* SolidShape.swift */,
+				BBE71B5028F05805003101FE /* Readme.md */,
 			);
 			path = DrawingApp;
 			sourceTree = "<group>";
@@ -126,8 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBE71B4728F057D2003101FE /* LaunchScreen.storyboard in Resources */,
+				BBE71B6D28F0590B003101FE /* Main.storyboard in Resources */,
 				BBE71B4428F057D2003101FE /* Assets.xcassets in Resources */,
-				BBE71B4228F057D0003101FE /* Main.storyboard in Resources */,
+				BBE71B5728F05805003101FE /* Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,22 +182,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBE71B3F28F057D0003101FE /* ViewController.swift in Sources */,
+				BBE71B5928F05805003101FE /* OutlineTriangle.swift in Sources */,
 				BBE71B3B28F057D0003101FE /* AppDelegate.swift in Sources */,
+				BBE71B6228F0581A003101FE /* DrawingView.swift in Sources */,
+				BBE71B5528F05805003101FE /* OutlineShape.swift in Sources */,
+				BBE71B5828F05805003101FE /* ColorButton.swift in Sources */,
+				BBE71B5B28F05805003101FE /* OutlineCircle.swift in Sources */,
+				BBE71B6928F0586C003101FE /* Shape.swift in Sources */,
+				BBE71B6128F0581A003101FE /* DrawingItem.swift in Sources */,
+				BBE71B6328F0581A003101FE /* Circle.swift in Sources */,
+				BBE71B5628F05805003101FE /* OutlineRect.swift in Sources */,
+				BBE71B6B28F058A5003101FE /* Extensions.swift in Sources */,
 				BBE71B3D28F057D0003101FE /* SceneDelegate.swift in Sources */,
+				BBE71B6728F0583C003101FE /* Triangle.swift in Sources */,
+				BBE71B5A28F05805003101FE /* SolidShape.swift in Sources */,
+				BBE71B6528F05829003101FE /* Rectangle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BBE71B4028F057D0003101FE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BBE71B4128F057D0003101FE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BBE71B4528F057D2003101FE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  DrawingApp
 //
-//  Created by Hannah Chen on 10/7/22.
+//  Created by Hannah Chen on 10/1/22.
 //
 
 import UIKit
